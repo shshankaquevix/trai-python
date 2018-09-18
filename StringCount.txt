@@ -1,0 +1,13 @@
+import sys
+from collections import OrderedDict
+print ("input string")
+my_str = input("")
+##print length of the string
+print (len(my_str))
+##count of character
+print ("".join(OrderedDict.fromkeys(my_str)))
+lst = list("".join(OrderedDict.fromkeys(my_str)))
+print (lst)
+for word in lst:
+    my_count=my_str.count(word)
+    print (word, ":" ,my_count)

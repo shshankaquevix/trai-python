@@ -1,0 +1,8 @@
+import sys
+print ("input string")
+my_str = input("")
+lst = list(reversed(my_str))
+print (lst)
+str1 = ''.join(lst)
+print (str1)
+    
